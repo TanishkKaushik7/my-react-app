@@ -41,42 +41,7 @@ const LandingPage = () => {
       <div className='head-container'>
        <h1 className='choose'>Why Choose Us?</h1>
       </div>
-      <div className='card-container'>
-      <div class="card">
-  <div class="card-inner">
-    <div class="card-front">
-      <p className='front-text'>Interactive Learning</p>
-    </div>
-    <div class="card-back">
-      <p>Engage students with interactive lessons, quizess and games that makes learning easier.</p>
-    </div>
-  </div>
-  <div class="card-inner">
-    <div class="card-front">
-      <p className='front-text'>Personalised Learning</p>
-    </div>
-    <div class="card-back">
-      <p>Tailor educational experiences to meet unique needs of each student.</p>
-    </div>
-  </div>
-  <div class="card-inner">
-    <div class="card-front">
-      <p className='front-text'>Teacher Resources</p>
-    </div>
-    <div class="card-back">
-      <p>Equip teachers with tools that they need to create dynamic and impactful lessons.</p>
-    </div>
-  </div>
-  <div class="card-inner">
-    <div class="card-front">
-      <p className='front-text'>Analytics and Reporting</p>
-    </div>
-    <div class="card-back">
-      <p>Gain insigts into student performance and progress with our analytics platform. </p>
-    </div>
-  </div>
-</div>
-    </div>
+  
     </div>
   );
 };
