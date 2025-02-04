@@ -40,8 +40,8 @@ const LandingPage = () => {
       </div>
       <div className='head-container'>
        <h1 className='choose'>Why Choose Us?</h1>
+      
       </div>
-  
     </div>
   );
 };
