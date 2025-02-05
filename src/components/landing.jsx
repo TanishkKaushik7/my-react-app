@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from '../assets/herosection.png';
 import img2 from '../assets/workshop.png';
 import '../cssfiles/landing.css';
-
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const LandingPage = () => {
   return (
@@ -41,6 +41,21 @@ const LandingPage = () => {
       <div className='head-container'>
        <h1 className='choose'>Why Choose Us?</h1>
       
+      
+      <footer className="footer">
+            <div className="social-icons">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebook />
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter />
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+            </div>
+            <p>&copy; 2023 My React App. All rights reserved.</p>
+          </footer>
       </div>
     </div>
   );
