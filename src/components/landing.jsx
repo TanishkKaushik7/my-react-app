@@ -42,19 +42,22 @@ const LandingPage = () => {
        <h1 className='choose'>Why Choose Us?</h1>
       
       
+      
+      
+      
       <footer className="footer">
             <div className="social-icons">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebook />
+              <a href="https://www.linkedin.com/company/kaizenyou/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
               </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/kaizenyou" target="_blank" rel="noopener noreferrer">
                 <FaTwitter />
               </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/kaizenyou_/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
             </div>
-            <p>&copy; 2023 My React App. All rights reserved.</p>
+            <p>&copy; 2024 KAIZENYOU, ALL RIGHT RESERVED.</p>
           </footer>
       </div>
     </div>
